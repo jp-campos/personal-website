@@ -5,7 +5,7 @@ h1 {
 h2{
     font-size: 2.8em;
     padding-top: 1.5em;
-    padding-bottom: 1em;
+    padding-bottom: 0.7em;
 }
 
 h3{
@@ -25,9 +25,16 @@ ul.navbar-nav a{
     
 }
 
+ul.navbar-nav a{
+    color: #14213d !important;
+    
+}
+
 ul.navbar-nav a:hover{
-    color: black !important;
-    box-shadow: inset 0px -3px 0px 0px rgba(0,0,0,0.25) !important;
+    background-color: #fca311;
+    border: 1px solid #fca311;
+    color: white !important;
+    box-shadow: 0.1em 0.4em #14213d, 0.2em 0.8em #fca311;
 }
 
 /*--------------------Sección de los hobbies--------------------------------------*/
@@ -136,8 +143,9 @@ div.Contact-cont{
 
 #Contact {
     color: #14213d;
-    text-shadow: 0.05em 0.05em #fca311,  0.13em 0.13em #e5e5e5;
+    text-shadow: 0.08em 0.08em #fca311,  0.19em 0.19em #e5e5e5;
     text-align: center !important;
+    padding-bottom: ;
 }
 
 div.card-the-form {
@@ -155,6 +163,7 @@ div.footer {
     justify-content: center !important;
     line-height: 1.5;
     text-align: center;
+    padding: 1em 0 0.3em 0;
 }
 
 div.footer p{
@@ -167,10 +176,42 @@ div.footer p{
     background-color: white;
     color: #14213d;
     border: 1px solid #14213d;
+    margin-bottom: 3em;
 }
 
 #Submit:hover{
     background-color: #fca311;
     border: 1px solid #fca311;
     color: white;
+    box-shadow: 0.4em 0.4em #14213d, 0.8em 0.8em #fca311;
+}
+
+input:hover, textarea:hover{
+    border: 4px solid #fca311;
+    box-shadow: 0.4em 0.4em #14213d;
+}
+
+div.form-the-contact{
+    border: 2px solid #e5e5e5;
+    border-radius: 20px;
+    margin-top: 2em;
+}
+
+#gihub_logo {
+    background-color: white;
+}
+
+#lghg {
+    height: 65px;
+    padding: 0 -10px;
+}
+
+#lglk{
+    height: 63px;
+    padding: 0 -10px;
+    
+}
+
+#lge {
+    height: 72px;
 }

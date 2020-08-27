@@ -3,9 +3,9 @@ h1 {
 }
 
 h2{
-    font-size: 2.4em;
-    padding-top: 1.7em;
-    padding-bottom: 1.7em;
+    font-size: 2.8em;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
 }
 
 h3{
@@ -13,7 +13,7 @@ h3{
 }
 
 p, li, a{
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 div.titulo{
@@ -30,29 +30,147 @@ ul.navbar-nav a:hover{
     box-shadow: inset 0px -3px 0px 0px rgba(0,0,0,0.25) !important;
 }
 
+/*--------------------Sección de los hobbies--------------------------------------*/
+
 #Hobbies {
-    color: white;
-    text-shadow: 0.1em 0.1em black,  0.13em 0.13em #fca311;
+    color: #fca311;
+    text-shadow: 0.05em 0.05em white,  0.13em 0.13em black;
 }
 
 div.Hobbies-cont {
-    background-color: #14213d;
+    background-color: #e5e5e5;
+    padding-bottom: 3em;
 }
 
 div.Hobbies-cont p{
-    color: white;
-    border-left: 4px solid #fca311;
+    color: black;
+    border-left: 4px solid #14213d;
     padding: 0 8% 0 5%;
 }
 
-div.Hobbies-cont h3{
+div.Hobbies-cont a{
     color: #fca311;
+    font-size: 1em;
 }
 
-footer {
-    align-content: center;
+div.Hobbies-cont h3{
+    color: #14213d;
 }
 
-footer p{
+
+/*-------- Sección de About me------------------------------------------------*/
+/* Color de fondo*/
+div.About-cont{
+    background-color: #fca311;
+    padding-bottom: 3em;
+}
+
+div.About-cont ul{
+    list-style: none;
+}
+
+div.About-cont li::before{
+    content: "•	";
+    color: #14213d;
+}
+
+/*Color de texto de listas*/
+div.About-cont li{
+    color: white;
+    margin-left: -15px;
+    
+
+}
+
+/* Color de subtitulos*/
+div.About-cont h3{
+    color: #14213d;
+}
+/*Color del titulo About*/
+#About {
+    color: white;
+    text-shadow: 0.05em 0.05em #14213d,  0.13em 0.13em #e5e5e5;
+}
+
+/*-------- Sección de Home me------------------------------------------------*/
+/* Color de fondo*/
+div.Home-cont{
+    background-color: #14213d;
+}
+
+/*Color de texto de listas*/
+div.Home-cont p{
+    color: white;
+    margin: 0 0 0 0 !important;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+img {
+    padding: 15px;
+}
+
+/*---------------------------Sección de Projects-----------------------------*/
+/**/
+div.Project-cont{
+    background-color: white;
+    padding-bottom: 3em;
+}
+
+#Projects {
+    color: #14213d;
+    text-shadow: 0.05em 0.05em #fca311,  0.13em 0.13em #e5e5e5;
+}
+
+#imgPersonal{
+    padding: 0 0 0 0;
+    box-shadow: 0.4em 0.4em #14213d, 0.8em 0.8em #fca311;
+}
+
+/*---------------------------Sección de Contact-----------------------------*/
+/**/
+div.Contact-cont{
+    background-color: white;
+    padding-bottom: 3em;
+}
+
+#Contact {
+    color: #14213d;
+    text-shadow: 0.05em 0.05em #fca311,  0.13em 0.13em #e5e5e5;
+    text-align: center !important;
+}
+
+div.card-the-form {
+    
+}
+
+#message{
+    min-height: 6.5em !important;
+    max-height: 8em !important;
+    align-content: flex-start !important;
+}
+
+div.footer {
+    background-color: #14213d;
+    justify-content: center !important;
+    line-height: 1.5;
+    text-align: center;
+}
+
+div.footer p{
     display: inline-block;
+    color: white;
+    
+}
+
+#Submit{
+    background-color: white;
+    color: #14213d;
+    border: 1px solid #14213d;
+}
+
+#Submit:hover{
+    background-color: #fca311;
+    border: 1px solid #fca311;
+    color: white;
 }

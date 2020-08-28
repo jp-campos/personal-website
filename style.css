@@ -108,6 +108,7 @@ div.About-cont li{
 /* Color de subtitulos*/
 div.About-cont h3{
     color: #14213d;
+    padding: 1.2em 0 0.5em 0;
 }
 /*Color del titulo About*/
 #About {
@@ -285,3 +286,7 @@ div.card a:hover{
     color: #fca311;
 }
 
+span.TitEd{
+    color: #14213d;
+    font-size: 1.12em;
+}

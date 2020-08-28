@@ -39,7 +39,7 @@ ul.navbar-nav a:hover{
 
 /*--------------------Sección de los hobbies--------------------------------------*/
 
-#Hobbies {
+#Hobbies{
     color: #fca311;
     text-shadow: 0.05em 0.05em white,  0.13em 0.13em black;
 }
@@ -62,6 +62,7 @@ div.Hobbies-cont a{
 
 div.Hobbies-cont h3{
     color: #14213d;
+    padding: 1.2em 0 0.5em 0;
 }
 
 
@@ -113,9 +114,7 @@ div.Home-cont p{
     padding-bottom: 1.5em;
 }
 
-img {
-    padding: 15px;
-}
+
 
 /*---------------------------Sección de Projects-----------------------------*/
 /**/
@@ -145,7 +144,7 @@ div.Contact-cont{
     color: #14213d;
     text-shadow: 0.08em 0.08em #fca311,  0.19em 0.19em #e5e5e5;
     text-align: center !important;
-    padding-bottom: ;
+    padding-bottom: 1em;
 }
 
 div.card-the-form {
@@ -201,17 +200,55 @@ div.form-the-contact{
     background-color: white;
 }
 
+#lghg, #lglk, #lge{
+    margin: 0 20px;
+}
+
 #lghg {
-    height: 65px;
+    height: 40px;
     padding: 0 -10px;
 }
 
 #lglk{
-    height: 63px;
+    height: 46px;
     padding: 0 -10px;
     
 }
 
 #lge {
-    height: 72px;
+    height: 56px;
 }
+
+img.img-fluid-completas{
+    box-shadow: 0.4em 0.4em #14213d;
+    margin: 7px;
+}
+
+div.imgs_row{
+    padding: 3em 0 3em 0;
+}
+
+div.card {
+    min-height: 100px;
+}
+
+#Tech-Title{
+    color: #fca311;
+    text-shadow: 0.05em 0.05em white,  0.1em 0.1em black;
+}
+
+img.tech-photo{
+    min-height: 30px;
+    max-height: 50px;
+    margin: 20px 0;
+}
+
+div.card{
+    border-radius: 20px;
+    box-shadow: 0.5em 0.5em #e5e5e5;
+}
+
+div.card a:hover{
+    color: #fca311;
+}
+
